@@ -13,28 +13,17 @@
     <body> 
 
         <div class="header">
-            <h1>Assignment 3: Light up LED </h1>
+            <h1>A4: High(er) voltage and transistors! </h1>
            
             <p>
-                This time I only use 1 yellow LED</br></br>
-                
-                To find the resistance, I used Ohm's Law: Voltage(Volts) = Current(Amperes) x Resistance (Ohms) </br></br>
-The voltage in this formula is the power of my laptop, which is 5V. </br></br>
-First, I need to find the voltage of the resistance: </br></br>
-V(total) = V(red LED) + V(resistance) </br></br>
-<=> 5 = 1.8+ V(resistance)       => V(resistance) = 5-2.8 = 3.2V</br></br>
-                
-Apply it to the formula, V = I x R</br></br>
-<=> 3.2 = 0.02 x R      => R(resistance) = 3.2/0.02 = 160 Ohms</br></br>
-                
-                Because we don't have 160 Ohms resistance in the kit, so I used the 220 Ohms instead, and it's closest to 160!</br>
+                I got the idea to do this assignment from a Youtube video where that person use ultrasonic sensor to control</br></br>
+    volume. I always want to make something like that, so I did some research about it. I tried to control the fan with </br></br>
+the sensor, but unfortunately, I think somehow I broke it. Lol. Anyway, back to the assignment, since we don't have </br></br>
+any thing that has volume, so I decided to use the sensor to control the spin of the motor instead. Whenever I hover</br></br>
+around the sensor, the motor will move certain degree, in this case 90 degree. I also use N-MOSFET transitor to control the signal</br></br>
+so I won't destroy my arduino if I plug in 110V
             </p>
-<p>
-    I chose the resistor 10K for the photoresistor because I want to control the current. The photoresistor has </br></br>
-little or no resistance, so in order to keep the current 0.02A, I should choose a resistor that has high value
 
-    
-</p>
 
  <p>
 </br> Here is my schematic: </br>
