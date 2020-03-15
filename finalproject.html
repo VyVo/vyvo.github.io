@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>A6: The web talks back! </title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1> A6: The web talks back! </h1>
+           
+            <p>
+                In this circuit, I used a joystick, which already has 2 inputs, and a red LED. When I press 1, the LED turns on; when I press 0, the LED turns off.</br></br>
+                To find the resistance of the LED, I used Ohm's Law: Voltage(Volts) = Current(Amperes) x Resistance (Ohms) </br></br>
+The voltage in this formula is the power of my laptop, which is 5V. </br></br>
+First, I need to find the voltage of the resistance: </br></br>
+V(total) = V(red LED) + V(resistance) </br></br>
+<=> 5 = 1.8+ V(resistance)       => V(resistance) = 5-2.8 = 3.2V</br></br>
+                
+Apply it to the formula, V = I x R</br></br>
+<=> 3.2 = 0.02 x R      => R(resistance) = 3.2/0.02 = 160 Ohms</br></br>
+                
+                Because we don't have 160 Ohms resistance in the kit, so I used the 220 Ohms instead, and it's closest to 160!</br></br>
+Also, the joystick has resistance too, but it's internal resistance so I wouldn't include here.
+            </p>
+
+ <p>
+</br> Here is my schematic: </br>
+                <img src="IMG_2492.JPG" width=400></a>
+        
+  
+            </p>
+ <p>
+</br> The firmware (as a code snippet): </br>
+                <img src="Screen Shot 2020-03-03 at 9.16.41 PM.png" width=400></a>
+        
+  
+            </p>
+
+     </br> My webpage's p5.js code </br>
+          <p>
+             Here is the javascript for this circuit. It's basically the same as example 2.           
+              I just changed the port name, add some notes in it, and change the indicated colors to make it easy to see the difference.
+              I also add the keyPressed function to call everytime the key is pressed
+            </p>
+                <img src="Screen Shot 2020-03-03 at 9.31.25 PM.png" width=400></a>
+                <img src="Screen Shot 2020-03-03 at 9.31.36 PM.png" width=400></a>
+                <img src="Screen Shot 2020-03-03 at 9.31.46 PM.png" width=400></a>
+            </p>
+<p>
+    
+</br> My circuit and the operation:</br>
+<img src="IMG_2964.jpg" width=400></a></br>
+      <img src="ezgif.com-video-to-gif (2).gif" width =400></a>
+
+</p>
+
+        </div>
+        
+    </body>
+</html>
