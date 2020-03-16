@@ -27,9 +27,10 @@
                
             </p>
 <p> 
+</br>
 <h3> Concept</h3>  
 For my project, I want to create a smart blind stick. Whereas a regular blind stick allows the user to feel objects when the stick hits it, a smart blind stick will </br>
-be able to detect whether there’s an object within a certain amount of range. When the smart blind stick detects an object in front of it, a red LED will light up and it’ll</br>
+be able to detect whether there’s an object within a certain amount of range. When the smart blind stick detects an object in front of it, the red LED will light up and it’ll</br>
 make a sound. This allows the user to know that there’s an obstacle in front of them and give them time to change directions. 
 </br>
 </br>
@@ -52,21 +53,23 @@ A long stick</br>
     
 </p>  
 <p>
-     To find the resistance of the LED, I used Ohm's Law: Voltage(Volts) = Current(Amperes) x Resistance (Ohms) </br></br>
-The voltage in this formula is the power of my laptop, which is 5V. </br></br>
-First, I need to find the voltage of the resistance: </br></br>
-V(total) = V(red LED) + V(resistance) </br></br>
-<=> 5 = 1.8+ V(resistance)       => V(resistance) = 5-2.8 = 3.2V</br></br>
+     To find the resistance of the LED, I used Ohm's Law: Voltage(Volts) = Current(Amperes) x Resistance (Ohms) </br>
+The voltage in this formula is the power of my laptop, which is 5V. </br>
+First, I need to find the voltage of the resistance: </br>
+V(total) = V(red LED) + V(resistance) </br>
+<=> 5 = 1.8+ V(resistance)       => V(resistance) = 5-2.8 = 3.2V</br>
                 
-Apply it to the formula, V = I x R</br></br>
+Apply it to the formula, V = I x R</br>
 <=> 3.2 = 0.02 x R      => R(resistance) = 3.2/0.02 = 160 Ohms</br></br>
                 
-                Because we don't have 160 Ohms resistance in the kit, so I used the 220 Ohms instead, and it's closest to 160!</br></br>
+                Because we don't have 160 Ohms resistance in the kit, so I used the 220 Ohms instead, and it's closest to 160!</br>
+Also, the active buzzer has resistance too, but it's internal resistance so I wouldn't include here.
+
 </p>
 
  <p>
 </br> Here is my schematic: </br>
-                <img src="IMG_2492.JPG" width=400></a>
+                <img src="IMG_1896.JPG" width=400></a>
         
   
             </p>
