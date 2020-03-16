@@ -67,7 +67,8 @@ Also, the active buzzer has resistance too, but it's internal resistance so I wo
 </p>
 
  <p>
-</br> Here are my schematics: </br>
+</br> <h3> Here are my schematics: </h3>  
+
 <img src="IMG_4098.JPG" width=400></a>
 
   <img src="buzzer.jpg" width=400></a>
@@ -76,8 +77,11 @@ Also, the active buzzer has resistance too, but it's internal resistance so I wo
             </p>
  <p>
 </br> The firmware (as a code snippet): </br>
+</br> The smart blind stick will use an ultrasonic sensor to detect whether there’s an object in front of it. This will be the input stimulus. </br>
+If there is indeed an object, the output will turn on a red LED light and a beeping sound. If there’s no object, nothing will be turned on. </br></br>
 <img src="Screen Shot 2020-03-15 at 5.44.42 PM.png" width=400></a></br>
-<img src="Screen Shot 2020-03-15 at 5.44.55 PM.png" width=400></a></br>
+<img src="Screen Shot 2020-03-15 at 5.44.55 PM.png" width=400></a></br></br>
+
 In this code snippet, I added some comments to clarify my ideas and why I did it this way. It was very straight-forward and very easy to understand</br>
 I set the safety distance is less than 15 cm, because I want to allow user to have some time to adjust their movements and change directions.</br>
 The most confusing part here, I think, is to figure out the formula for the distance traveled. To calculate the distance, I use "distance = time x velocity"</br>
